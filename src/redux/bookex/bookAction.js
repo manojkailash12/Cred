@@ -1,1 +1,7 @@
-export const BUY_BOOK = 'BUY_BOOK'
+import { BUY_BOOK } from "./bookType";
+export const buyBook = () => {
+    return {
+        type: BUY_BOOK
+    }
+}
+export default buyBook;
